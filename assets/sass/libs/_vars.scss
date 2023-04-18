@@ -21,9 +21,9 @@
 
 // Font.
 	$font: (
-		family:				('Open Sans', sans-serif),
-		family-heading:		('Roboto Slab', serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Space Grotesk', sans-serif),
+		family-heading: 	('Space Grotesk', sans-serif),
+		family-fixed:		('Space Grotesk', sans-serif),
 		weight:				400,
 		weight-bold:		600,
 		weight-heading:		700,
@@ -33,12 +33,12 @@
 
 // Palette.
 	$palette: (
-		bg:					#2b2b2a,
-		bg-alt:				#dada1e,
-		fg:					#d96010,
-		fg-bold:			#d0814c,
-		fg-light:			#d96010,
+		bg:					#221E1F,
+		bg-alt:				#221E1F,
+		fg:					#DEDCC0,
+		fg-bold:			#f54b09,
+		fg-light:			#494949,
 		border:				rgba(67, 68, 66, 0.75),
 		border-bg:			transparentize(#e6ebed, 0.75),
-		accent:				#d99031
+		accent:				#f54b09
 	);
