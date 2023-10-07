@@ -108,7 +108,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-re
 
 /* Type */
 body, input, select, textarea {
-  color: #d45b14;
+  color: #2e2e33;
   font-family: "Space Grotesk", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -148,7 +148,7 @@ a:hover strong {
 }
 
 strong, b {
-  color: #2e2e33;
+  color: #dd6312;
   font-weight: 600;
 }
 
@@ -161,7 +161,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2e2e33;
+  color: #dd6312;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   line-height: 1.5;
@@ -231,16 +231,16 @@ sup {
 }
 
 blockquote {
-  border-left: solid 3px rgb(212, 88, 16);
+  border-left: solid 3px rgb(40, 39, 46);
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
 }
 
 code {
-  background: rgba(218, 87, 12, 0.25);
+  background: rgba(46, 46, 51, 0.25);
   border-radius: 0.375em;
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   font-family: "Space Grotesk", sans-serif;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -262,7 +262,7 @@ pre code {
 
 hr {
   border: 0;
-  border-bottom: solid 1px rgb(212, 88, 16);
+  border-bottom: solid 1px rgb(40, 39, 46);
   margin: 2em 0;
 }
 hr.major {
@@ -1420,7 +1420,7 @@ form {
 }
 
 label {
-  color: #2e2e33;
+  color: #dd6312;
   display: block;
   font-size: 0.9em;
   font-weight: 600;
@@ -1442,7 +1442,7 @@ textarea {
   background: #c7c4c0;
   border-radius: 0.375em;
   border: none;
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   color: inherit;
   display: block;
   outline: 0;
@@ -1473,7 +1473,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgb(212, 88, 16)' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgb(40, 39, 46)' /%3E%3C/svg%3E");
   background-size: 1.25em;
   background-repeat: no-repeat;
   background-position: calc(100% - 1em) center;
@@ -1482,7 +1482,7 @@ select {
   text-overflow: ellipsis;
 }
 select option {
-  color: #2e2e33;
+  color: #dd6312;
   background: #c7c4c0;
 }
 select:focus::-ms-value {
@@ -1522,7 +1522,7 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  color: #d45b14;
+  color: #2e2e33;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -1548,7 +1548,7 @@ input[type=checkbox] + label:before,
 input[type=radio] + label:before {
   background: #c7c4c0;
   border-radius: 0.375em;
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   content: "";
   display: inline-block;
   font-size: 0.8em;
@@ -1562,8 +1562,8 @@ input[type=radio] + label:before {
 }
 input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
-  background: #2e2e33;
-  border-color: #2e2e33;
+  background: #dd6312;
+  border-color: #dd6312;
   color: #c7c4c0;
   content: "\f00c";
 }
@@ -1604,7 +1604,7 @@ input[type=radio] + label:before {
 /* Box */
 .box {
   border-radius: 0.375em;
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   margin-bottom: 2em;
   padding: 1.5em;
 }
@@ -1733,7 +1733,7 @@ ul.alt {
   padding-left: 0;
 }
 ul.alt li {
-  border-top: solid 1px rgb(212, 88, 16);
+  border-top: solid 1px rgb(40, 39, 46);
   padding: 0.5em 0;
 }
 ul.alt li:first-child {
@@ -1840,7 +1840,7 @@ ul.contact {
 }
 ul.contact li {
   text-decoration: none;
-  border-top: solid 1px rgb(212, 88, 16);
+  border-top: solid 1px rgb(40, 39, 46);
   margin: 1.5em 0 0 0;
   padding: 1.5em 0 0 3em;
   position: relative;
@@ -1945,34 +1945,34 @@ table {
   width: 100%;
 }
 table tbody tr {
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   border-left: 0;
   border-right: 0;
 }
 table tbody tr:nth-child(2n+1) {
-  background-color: rgba(218, 87, 12, 0.25);
+  background-color: rgba(46, 46, 51, 0.25);
 }
 table td {
   padding: 0.75em 0.75em;
 }
 table th {
-  color: #2e2e33;
+  color: #dd6312;
   font-size: 0.9em;
   font-weight: 600;
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
 table thead {
-  border-bottom: solid 2px rgb(212, 88, 16);
+  border-bottom: solid 2px rgb(40, 39, 46);
 }
 table tfoot {
-  border-top: solid 2px rgb(212, 88, 16);
+  border-top: solid 2px rgb(40, 39, 46);
 }
 table.alt {
   border-collapse: separate;
 }
 table.alt tbody tr td {
-  border: solid 1px rgb(212, 88, 16);
+  border: solid 1px rgb(40, 39, 46);
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -2104,7 +2104,7 @@ button:disabled,
 
 /* Mini Posts */
 .mini-posts article {
-  border-top: solid 1px rgb(212, 88, 16);
+  border-top: solid 1px rgb(40, 39, 46);
   margin-top: 2em;
   padding-top: 2em;
 }
@@ -2185,7 +2185,7 @@ button:disabled,
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   border-radius: 0.25rem;
-  border: solid 2px rgb(212, 88, 16);
+  border: solid 2px rgb(40, 39, 46);
   content: "";
   display: block;
   height: 7em;
@@ -2303,7 +2303,7 @@ button:disabled,
   width: calc(33.3333333333% - 6em);
 }
 .posts article:before {
-  background: rgb(212, 88, 16);
+  background: rgb(40, 39, 46);
   content: "";
   display: block;
   height: calc(100% + 6em);
@@ -2313,7 +2313,7 @@ button:disabled,
   width: 1px;
 }
 .posts article:after {
-  background: rgb(212, 88, 16);
+  background: rgb(40, 39, 46);
   bottom: -3em;
   content: "";
   display: block;
@@ -2451,7 +2451,7 @@ button:disabled,
 }
 #main > .inner > section {
   padding: 6em 0 4em 0;
-  border-top: solid 2px rgb(212, 88, 16);
+  border-top: solid 2px rgb(40, 39, 46);
 }
 #main > .inner > section:first-of-type {
   border-top: 0 !important;
@@ -2503,7 +2503,7 @@ button:disabled,
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
-  color: #d45b14;
+  color: #2e2e33;
   content: "\f002";
   cursor: default;
   display: block;
@@ -2534,7 +2534,7 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #252631;
+  background-color: #c0bdb9;
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -2548,7 +2548,7 @@ button:disabled,
   width: 26em;
 }
 #sidebar > .inner > * {
-  border-bottom: solid 2px rgb(212, 88, 16);
+  border-bottom: solid 2px rgb(40, 39, 46);
   margin: 0 0 3.5em 0;
   padding: 0 0 3.5em 0;
 }
@@ -2561,7 +2561,7 @@ button:disabled,
   padding-bottom: 0;
 }
 #sidebar > .inner > .alt {
-  background-color: #21212b;
+  background-color: #bbb8b4;
   border-bottom: 0;
   margin: -2.2222222222em 0 4.4444444444em -2.2222222222em;
   padding: 2.2222222222em;
@@ -2687,14 +2687,14 @@ button:disabled,
     width: 7.25em;
   }
   #sidebar .toggle:before {
-    color: #d45b14;
+    color: #2e2e33;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
     z-index: 1;
   }
   #sidebar .toggle:after {
-    background: rgba(246, 195, 164, 0.75);
+    background: rgba(132, 132, 144, 0.75);
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
@@ -2858,7 +2858,7 @@ button:disabled,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #2e2e33;
+  color: #dd6312;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2922,7 +2922,7 @@ button:disabled,
   transform: rotate(-180deg);
 }
 #menu > ul > li {
-  border-top: solid 1px rgb(212, 88, 16);
+  border-top: solid 1px rgb(40, 39, 46);
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
 }
