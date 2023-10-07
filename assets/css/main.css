@@ -93,7 +93,7 @@ html {
 }
 
 body {
-  background: #f3cb97;
+  background: #c7c4c0;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
   -moz-animation: none !important;
@@ -1439,7 +1439,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #f3cb97;
+  background: #c7c4c0;
   border-radius: 0.375em;
   border: none;
   border: solid 1px rgb(212, 88, 16);
@@ -1483,7 +1483,7 @@ select {
 }
 select option {
   color: #2e2e33;
-  background: #f3cb97;
+  background: #c7c4c0;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1546,7 +1546,7 @@ input[type=radio] + label:before {
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
-  background: #f3cb97;
+  background: #c7c4c0;
   border-radius: 0.375em;
   border: solid 1px rgb(212, 88, 16);
   content: "";
@@ -1564,7 +1564,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #2e2e33;
   border-color: #2e2e33;
-  color: #f3cb97;
+  color: #c7c4c0;
   content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
@@ -1911,7 +1911,7 @@ ul.pagination li > .page {
 }
 ul.pagination li > .page.active {
   background-color: #2e2e33;
-  color: #f3cb97 !important;
+  color: #c7c4c0 !important;
 }
 ul.pagination li > .page.active:hover {
   background-color: #35353b;
@@ -2073,7 +2073,7 @@ button.primary,
 .button.primary {
   background-color: #2e2e33;
   box-shadow: none;
-  color: #f3cb97 !important;
+  color: #c7c4c0 !important;
 }
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
@@ -2534,7 +2534,7 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f1c489;
+  background-color: #252631;
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -2561,7 +2561,7 @@ button:disabled,
   padding-bottom: 0;
 }
 #sidebar > .inner > .alt {
-  background-color: #f0bf80;
+  background-color: #21212b;
   border-bottom: 0;
   margin: -2.2222222222em 0 4.4444444444em -2.2222222222em;
   padding: 2.2222222222em;
