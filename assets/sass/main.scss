@@ -60,3 +60,23 @@
 	@import 'layout/banner';
 	@import 'layout/footer';
 	@import 'layout/menu';
+
+// Style
+
+#header a {
+    text-decoration: none; /* Removes underline */
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex: 1; /* Takes up available space */
+}
+
+.title-container {
+    text-align: right;
+}
